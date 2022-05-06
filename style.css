@@ -1,0 +1,38 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/OpenSans.ttf");
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  background: repeating-linear-gradient(45deg, hsla(64deg, 83%, 54%, 0.05) 0px, hsla(64deg, 83%, 54%, 0.05) 1px, transparent 1px, transparent 11px, hsla(64deg, 83%, 54%, 0.05) 11px, hsla(64deg, 83%, 54%, 0.05) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(90deg, hsla(64deg, 83%, 54%, 0.05) 0px, hsla(64deg, 83%, 54%, 0.05) 1px, transparent 1px, transparent 11px, hsla(64deg, 83%, 54%, 0.05) 11px, hsla(64deg, 83%, 54%, 0.05) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(0deg, hsla(64deg, 83%, 54%, 0.05) 0px, hsla(64deg, 83%, 54%, 0.05) 1px, transparent 1px, transparent 11px, hsla(64deg, 83%, 54%, 0.05) 11px, hsla(64deg, 83%, 54%, 0.05) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(135deg, hsla(64deg, 83%, 54%, 0.05) 0px, hsla(64deg, 83%, 54%, 0.05) 1px, transparent 1px, transparent 11px, hsla(64deg, 83%, 54%, 0.05) 11px, hsla(64deg, 83%, 54%, 0.05) 12px, transparent 12px, transparent 32px), linear-gradient(90deg, rgb(33, 118, 255), rgb(51, 161, 253));
+  font-family: "Open Sans";
+  color: #061A40;
+  text-shadow: 1px 1px 2px #FAA6FF;
+}
+body main {
+  height: 50%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px #FAA6FF;
+}
+body main h1 {
+  font-weight: 400;
+}
+body main h2 {
+  font-weight: 100;
+}
+
+/*# sourceMappingURL=style.css.map */
